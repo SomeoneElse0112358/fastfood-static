@@ -1,0 +1,32 @@
+{
+  "name": "fastfood-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "docker": "docker-compose up --build --detach"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SomeoneElse0112358/fastFood-static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SomeoneElse0112358/fastFood-static/issues"
+  },
+  "homepage": "https://github.com/SomeoneElse0112358/fastFood-static#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^10.0.0",
+    "envalid": "^7.2.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validation": "^3.0.8",
+    "mongodb": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

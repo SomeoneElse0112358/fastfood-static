@@ -1,0 +1,5 @@
+http://{$SITE_ADDRESS} {
+    reverse_proxy /api/* {$PROJECT_NAME}-api:{$PORT}
+    reverse_proxy /auth/* {$PROJECT_NAME}-auth:{$PORT}
+    reverse_proxy {$PROJECT_NAME}-static:{$PORT}
+}
